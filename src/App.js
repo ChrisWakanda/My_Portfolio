@@ -8,7 +8,7 @@ function App() {
         Hello, I am Aryan Raveshia.
       </h1>
       <p>
-      This is my Portfolio Website. Welcome!
+      This site is currently under development. Please check back later!
       </p>
     </div>
   );
