@@ -1,15 +1,11 @@
 
 import './App.css';
+import Landing from './components/Landing'
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello, I am Aryan Raveshia.
-      </h1>
-      <p>
-      This is my Portfolio Website. Welcome!
-      </p>
+      <Landing />
     </div>
   );
 }
