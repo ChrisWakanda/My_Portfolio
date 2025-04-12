@@ -1,0 +1,8 @@
+/* Minimal baseline CSS to keep */
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px;
+  background-color: #cecece;
+  color: #333;
+}
