@@ -1,29 +1,36 @@
 function Landing() {
-    return (
-      <>
+  return (
+    <>
 
-      <div className="Seek">
-      <h1 className="Seek-text">
-        Seek<br />
-      </h1>
-      </div>
-      
-      <div className="Disc">
-      <h1 className="Disc-text">
-        Discomfort.<br />
-      </h1>
-      </div>
-
-      <div className="Name">
-        <h1>
-          Aryan Raveshia
+      <div className="side-toolbar">
+        <h1 className="logo">
+              AIR
         </h1>
       </div>
-  
 
-      </>
-    );
-  }
-  
-  export default Landing;
-  
+      <div className="main-container">
+
+        <h2 className="hey-there-text">
+          hey there!👋 i'm
+        </h2>
+
+        <h2 className="fname-text">
+          Aryan
+        </h2>
+
+        <h2 className="lname-text">
+          Raveshia
+        </h2>
+
+        <h2 className="basic-intro-text">
+          <span className="swe-text">software engineer</span> by trade. <br />
+          <span className="builder-text">builder</span> at heart. <br />
+          <span className="global-text">global</span> in spirit.
+        </h2>
+      </div>
+    </>
+  );
+
+}
+
+export default Landing;
