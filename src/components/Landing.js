@@ -1,3 +1,12 @@
+import React from 'react';
+//import landing_pg_img from '../assets/undraw_dev-productivity_5wps.svg';
+//import landing_pg_img from '../assets/undraw_coding_joxb.svg';
+//import landing_pg_img from '../assets/undraw_in-the-zone_07y7.svg';
+
+
+
+
+
 function Landing() {
   return (
     <>
