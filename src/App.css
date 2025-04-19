@@ -1,6 +1,4 @@
 
-
-
 .main-container {
   position: absolute;
   height: 100%;
@@ -16,27 +14,24 @@
 }
 
 .side-toolbar {
-  position: absolute;
-  height: 100%;
-  width: 7%;
+  position: sticky;
+  left: 0;
+  height: 100vh;
+  width: 7vw;
   background: rgba(0, 0, 0, 0.4);
   top: 0;
-  margin-top: 0;
+  
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  scroll-behavior: smooth;
+  flex-direction: column;
+  align-items: center;
+  
   z-index: 1;
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   color: #818181;
-  width: 3%;
   font-size: 2vw;
-  margin-top: 0%;
-  top: 2%;
-  margin-left: 28%;
   font-weight: 100;
   
   
@@ -45,36 +40,38 @@
 .hey-there-text {
   position: absolute;
   color: white;
-  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
   margin-left: 13%;
-  margin-top: 14.5%;
+  margin-top: 14%;
   font-weight: 100;
 }
 
 .fname-text {
   position: absolute;
   color: #eeeeee;
-  font-size: 5.5vw;
+  font-size: 6vw;
   margin-left: 13%;
-  margin-top: 16%;
+  margin-top: 15.5%;
   font-weight: 500;
 }
 
 .lname-text {
   position: absolute;
   color: #eeeeee;
-  font-size: 6vw;
+  font-size: 6.5vw;
   margin-left: 15%;
-  margin-top: 21%;
+  margin-top: 20.5%;
   font-weight: 500;
 }
 
 .basic-intro-text {
   position: absolute;
   color: white;
-  font-size: 1.5vw;
+  font-size: 2vw;
   margin-left: 13%;
-  margin-top: 29.5%;
+  margin-top: 29%;
   font-weight: 100;
 }
 
@@ -94,4 +91,61 @@
   margin-top: 4%;
   left: 45%;
   z-index: 2;
+}
+
+.linkedin_button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 125.5%;
+  width: 2vw;
+  height: 2vw;
+  /* min-width: 32px;
+  min-height: 32px;
+  max-width: 48px;
+  max-height: 48px; */
+  
+}
+
+.github_button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 125.5%;
+  width: 2vw;
+  height: 2vw;
+  /* min-width: 32px;
+  min-height: 32px;
+  max-width: 48px;
+  max-height: 48px; */
+  
+}
+
+.x_button {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 125.5%;
+  width: 2vw;
+  height: 2vw;
+  /* min-width: 32px;
+  min-height: 32px;
+  max-width: 48px;
+  max-height: 48px; */
+  
 }
